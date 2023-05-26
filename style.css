@@ -119,6 +119,7 @@ span{
     font-size: 1em;
     padding: 0.6em 1em;
     border: none;
+    border-radius: 20px;
     background-color: #f8f8f8;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
     color: #333;
@@ -127,6 +128,9 @@ span{
     line-height: 50px;
 }
 .datos select{
+    background: #f8f8f8;
+    border-radius: 1px;
+    border-style: none;
     height: 2em;
     width: 4em;
 }
@@ -155,7 +159,6 @@ span{
     position: relative;
     bottom: -1em;
     left: -0.1em;
-    font-size: 20px;
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     font-size: 20px;
     width: 14.5em;
@@ -164,6 +167,7 @@ span{
     color: white;
     border: none;
     border-radius: 0.6em;
+    cursor: pointer;
 }
 
 .ultimo p{

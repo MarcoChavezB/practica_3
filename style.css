@@ -69,6 +69,7 @@ button {
 }
 
 span{
+    color: #1564cc;
     font-weight: bolder;
 }
 
@@ -122,4 +123,52 @@ span{
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
     color: #333;
 }
+.datos h4{
+    line-height: 50px;
+}
+.datos select{
+    height: 2em;
+    width: 4em;
+}
+.datos select:nth-child(4){
+    margin-right: 6em;
+}
+.datos select:nth-child(3){
+    margin-left: 1.3em;
+    margin-right: 1.3em;
+}
 
+.genero{
+    line-height: 3em;
+    display: flex;
+}
+.genero input{
+    width: 1.3em;
+    margin-right: 20px;
+}
+.genero input:nth-child(3){
+    margin-left: 20px;
+}
+
+
+.ultimo button{
+    position: relative;
+    bottom: -1em;
+    left: -0.1em;
+    font-size: 20px;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: 20px;
+    width: 14.5em;
+    height: 3em;
+    background-image: linear-gradient(to bottom, #5a8847, #73ae5a);
+    color: white;
+    border: none;
+    border-radius: 0.6em;
+}
+
+.ultimo p{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: -2.9em;
+}

@@ -71,5 +71,15 @@ button {
 span{
     font-weight: bolder;
 }
-  
+
+.inicio-sesion{
+    display: flex;
+    flex-direction: column;
+    height: 53em;
+    width: 45em;
+    margin-top: -33em;
+    margin-left: 77em;
+}
+
+
  
